@@ -1,0 +1,21 @@
+#connectedAs, #time, #titles, #episodes, #rewatch {
+    -fx-text-fill: white;
+    -fx-fill: white;
+    -fx-font-family: Tahoma;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+#back{
+    -fx-border-color: #424242;
+    -fx-border-radius: 0 0 0 20;
+    -fx-font-family: Tahoma;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+}
+#logout{
+    -fx-border-color: #424242;
+    -fx-border-radius: 10;
+    -fx-font-family: Tahoma;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+}

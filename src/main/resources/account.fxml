@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="luck.anime.AccountGuiController">
+   <stylesheets>
+      <URL value="@account.css" />
+   </stylesheets>
+   <children>
+      <AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #212121;">
+         <children>
+            <Text fill="WHITE" layoutX="61.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Statystyki" textAlignment="CENTER" wrappingWidth="397.13671875">
+               <font>
+                  <Font name="Tahoma" size="25.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="60.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Czas oglądania:">
+               <font>
+                  <Font name="Tahoma" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="60.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tytułów:">
+               <font>
+                  <Font name="Tahoma" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="60.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Epizodów:">
+               <font>
+                  <Font name="Tahoma" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="58.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rewatch:">
+               <font>
+                  <Font name="Tahoma" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="61.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ostatnie aktualizacje:" textAlignment="CENTER" wrappingWidth="397.13671875">
+               <font>
+                  <Font name="Tahoma" size="25.0" />
+               </font>
+            </Text>
+            <Button fx:id="logout" layoutX="949.0" layoutY="601.0" mnemonicParsing="false" onMouseClicked="#handleLogoutAction" prefHeight="48.0" prefWidth="133.0" text="Wyloguj" />
+            <Text fill="WHITE" layoutX="965.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zalogowano jako:">
+               <font>
+                  <Font name="Tahoma" size="13.0" />
+               </font>
+            </Text>
+            <Text fx:id="connectedAs" fill="WHITE" layoutX="817.0" layoutY="527.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="397.13671875">
+               <font>
+                  <Font name="Tahoma" size="25.0" />
+               </font>
+            </Text>
+            <Text fx:id="time" layoutX="219.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text fx:id="titles" layoutX="219.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text fx:id="episodes" layoutX="219.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text fx:id="rewatch" layoutX="219.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Button fx:id="back" layoutX="1110.0" mnemonicParsing="false" onMouseClicked="#handleBackAction" prefHeight="57.0" prefWidth="170.0" text="Powrót" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

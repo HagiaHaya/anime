@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="luck.anime.VideoGuiController">
+   <stylesheets>
+      <URL value="@videostyle.css" />
+   </stylesheets>
+   <children>
+      <MediaView fx:id="video" fitHeight="720.0" fitWidth="1280.0" />
+      <ImageView fx:id="back" fitHeight="76.0" fitWidth="86.0" onMouseClicked="#handleBackAction" pickOnBounds="true" preserveRatio="true" visible="true">
+         <image>
+            <Image url="@back.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
